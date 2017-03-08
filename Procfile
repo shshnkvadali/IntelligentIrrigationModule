@@ -1,1 +1,1 @@
-web: gunicorn {{ IIM }}.wsgi
+web: gunicorn IIM.wsgi
