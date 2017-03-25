@@ -3,7 +3,7 @@ import csv
 import numpy as np
 from linearRegression import generateModel
 from sklearn.cross_validation import train_test_split
-ifile  = open('2015hourly211.csv', "r")
+ifile  = open('dataset.csv', "r")
 read = list(csv.reader(ifile, delimiter=','))
 read.pop(0)
 input,output=[],[]

@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import csv
 from sklearn import datasets
 from sklearn.linear_model import LassoCV
 from sklearn.linear_model import Lasso
@@ -8,7 +8,7 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.cross_validation import train_test_split
 
-ifile  = open('2015hourly211.csv', "r")
+ifile  = open('dataset.csv', "r")
 read = list(csv.reader(ifile, delimiter=','))
 read.pop(0)
 input,output=[],[]
