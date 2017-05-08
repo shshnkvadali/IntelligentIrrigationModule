@@ -24,8 +24,11 @@ SECRET_KEY = '15w$x)@9^gr#p#@=yqpnwwzzgpe#n8ttl&ey85#m3zycx^(0@n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://smartfarmsjsu.herokuapp.com']
 
 
 # Application definition
