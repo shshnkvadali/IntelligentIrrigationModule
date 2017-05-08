@@ -28,7 +28,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
-ALLOWED_HOSTS = ['http://smartfarmsjsu.herokuapp.com']
+ALLOWED_HOSTS = ['smartfarmsjsu.herokuapp.com']
 
 
 # Application definition
