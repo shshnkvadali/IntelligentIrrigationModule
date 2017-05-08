@@ -27,7 +27,7 @@ SECRET_KEY = '15w$x)@9^gr#p#@=yqpnwwzzgpe#n8ttl&ey85#m3zycx^(0@n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smartfarmsjsu.herokuapp.com']
 
 
 # Application definition
